@@ -23,6 +23,7 @@ setup(
             'draw_square=learn_ros.draw_square:main',##ADDED MANUALLY FOR REGISTERING AS NODE
             'talker=learn_ros.talker:main',
             'listener=learn_ros.listener:main',
+            'add_service=learn_ros.add_service:main',
         ],
     },
 )
